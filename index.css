@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter";
+}
+body{
+    background-color:rgb(22, 30, 37);
+    width: 100vw;
+    height: 100vh;
+}
+.contaner{
+    color: aliceblue;
+    width: 700px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 1);
+    margin: auto;
+}
+.heading{
+color: (255, 255, 255, 1);
+line-height: 2;
+margin-left: 30px;
+margin-top: 20px;
+
+}
+.form-container{
+    display: flex;
+    width: 90%;
+    height: 90%;
+    margin: 15px;
+    padding: 10px;
+}
+#btn{
+    margin-left: 25px;
+    width: 80px;
+    height: 30px;
+    padding: 5px;
+    font-weight: 400;
+    line-height: 0cap;
+}
+#message{
+    margin-left: 25px;
+    margin-top: 10px;
+}
+#addedEmployees{
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+li{
+    list-style: none; 
+    padding: 10px;
+}
+.user-beauty{
+    border: 1px solid rgba(255, 255, 255, 1);
+    width: 500px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 10px;
+}
+.user-button-beauty{
+    border-radius: 20px;
+    width: 60px;
+    height: 30px;
+  
+   
+}
+
+
+.success-message {
+    color: green;
+  }
+  .error-message {
+    color: red;
+  }
+
+#name,#profession,#age{
+    height: 25px;
+    margin-top: 8px;
+}

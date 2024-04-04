@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module Test Project 2</title>
+    <link rel="stylesheet" href="./index.css" /> 
+</head>
+<body>
+    <div class="contaner">
+    <h1 class="heading">New Employees</h1>
+    <form id="employeeForm" method="post">
+    <div class="form-container">
+      <div class="name-design">
+        <label for="name">Enter Name</label>
+        <input type="text" name="name" id="name" required>
+      </div>
+      <div class="profession-design">
+        <label for="profession">Enter Profession</label>
+        <input type="text" name="profession" id="profession" required>
+      </div>
+      <div class="age-design">
+        <label for="age">Enter Age</label>
+        <input type="text" name="age" id="age" required>
+      </div>
+    </div>
+      <button type="submit" id="btn">Add User</button>
+    </form>
+    
+    <div id="message"></div>
+    <div class="data-list">
+    <div id="addedEmployees">
+      <h4>Added Employees</h4>
+      <ul id="employeeList"></ul>
+    </div>
+</div>
+</div>
+    <script src="./app.js"></script>
+</body>
+</html>
